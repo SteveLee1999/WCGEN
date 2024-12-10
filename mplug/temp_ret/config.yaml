@@ -1,0 +1,145 @@
+!!python/object/apply:ruamel.yaml.comments.CommentedMap
+dictitems:
+  alpha: !!python/object/new:ruamel.yaml.scalarfloat.ScalarFloat
+    args: [0.4]
+    state: {_e_sign: null, _e_width: null, _exp: null, _m_lead0: 1, _m_sign: false,
+      _prec: 1, _underscore: null, _width: 3}
+  batch_size_test: 12
+  batch_size_train: 8
+  beam_size: 10
+  bert_config: configs/config_bert.json
+  bos: '[CLS]'
+  clip_name: ViT-B-16
+  distill: true
+  eos: '[SEP]'
+  image_res: 448
+  k_test: 128
+  max_length: 80
+  min_length: 15
+  num_frm_test: 8
+  optimizer: !!python/object/apply:ruamel.yaml.comments.CommentedMap
+    dictitems:
+      lr1: !!python/object/new:ruamel.yaml.scalarfloat.ScalarFloat
+        args: [1e-05]
+        state: {_e_sign: true, _e_width: 2, _exp: e, _m_lead0: 0, _m_sign: false,
+          _prec: -1, _underscore: null, _width: 1}
+      lr2: !!python/object/new:ruamel.yaml.scalarfloat.ScalarFloat
+        args: [5e-06]
+        state: {_e_sign: true, _e_width: 2, _exp: e, _m_lead0: 0, _m_sign: false,
+          _prec: -1, _underscore: null, _width: 1}
+      opt: adamW
+      weight_decay: !!python/object/new:ruamel.yaml.scalarfloat.ScalarFloat
+        args: [0.02]
+        state: {_e_sign: null, _e_width: null, _exp: null, _m_lead0: 2, _m_sign: false,
+          _prec: 1, _underscore: null, _width: 4}
+    state:
+      _yaml_format: !!python/object/new:ruamel.yaml.comments.Format
+        state: !!python/tuple
+        - null
+        - {_flow_style: true}
+      _yaml_line_col: !!python/object:ruamel.yaml.comments.LineCol
+        col: 11
+        data:
+          lr1: [22, 24, 22, 29]
+          lr2: [22, 35, 22, 40]
+          opt: [22, 12, 22, 17]
+          weight_decay: [22, 46, 22, 60]
+        line: 22
+  prompt: ''
+  read_local_data: true
+  schedular: !!python/object/apply:ruamel.yaml.comments.CommentedMap
+    dictitems:
+      cooldown_epochs: 0
+      decay_rate: 1
+      epochs: 5
+      lr: !!python/object/new:ruamel.yaml.scalarfloat.ScalarFloat
+        args: [1e-05]
+        state: {_e_sign: true, _e_width: 2, _exp: e, _m_lead0: 0, _m_sign: false,
+          _prec: -1, _underscore: null, _width: 1}
+      min_lr: !!python/object/new:ruamel.yaml.scalarfloat.ScalarFloat
+        args: [1e-06]
+        state: {_e_sign: true, _e_width: 2, _exp: e, _m_lead0: 0, _m_sign: false,
+          _prec: -1, _underscore: null, _width: 1}
+      sched: cosine
+      warmup_epochs: 4
+      warmup_lr: !!python/object/new:ruamel.yaml.scalarfloat.ScalarFloat
+        args: [1e-05]
+        state: {_e_sign: true, _e_width: 2, _exp: e, _m_lead0: 0, _m_sign: false,
+          _prec: -1, _underscore: null, _width: 1}
+    state:
+      _yaml_format: !!python/object/new:ruamel.yaml.comments.Format
+        state: !!python/tuple
+        - null
+        - {_flow_style: true}
+      _yaml_line_col: !!python/object:ruamel.yaml.comments.LineCol
+        col: 11
+        data:
+          cooldown_epochs: [23, 112, 23, 129]
+          decay_rate: [23, 62, 23, 74]
+          epochs: [23, 37, 23, 45]
+          lr: [23, 27, 23, 31]
+          min_lr: [23, 48, 23, 56]
+          sched: [23, 12, 23, 19]
+          warmup_epochs: [23, 94, 23, 109]
+          warmup_lr: [23, 77, 23, 88]
+        line: 23
+  test_file: !!python/object/new:ruamel.yaml.comments.CommentedSeq
+    listitems: [data/lists_prevalent_inference.json]
+    state:
+      _yaml_format: !!python/object/new:ruamel.yaml.comments.Format
+        state: !!python/tuple
+        - null
+        - {_flow_style: true}
+      _yaml_line_col: !!python/object:ruamel.yaml.comments.LineCol
+        col: 11
+        data:
+          0: [1, 12]
+        line: 1
+  text_decoder: bert-base-uncased
+  text_encoder: bert-base-uncased
+  train_file: !!python/object/new:ruamel.yaml.comments.CommentedSeq
+    listitems: [data/lists_train.json]
+    state:
+      _yaml_format: !!python/object/new:ruamel.yaml.comments.Format
+        state: !!python/tuple
+        - null
+        - {_flow_style: true}
+      _yaml_line_col: !!python/object:ruamel.yaml.comments.LineCol
+        col: 12
+        data:
+          0: [0, 13]
+        line: 0
+  use_checkpoint: true
+  vision_width: 768
+  vln_root: views_img
+  warm_up: true
+state:
+  _yaml_format: !!python/object/new:ruamel.yaml.comments.Format
+    state: !!python/tuple
+    - null
+    - {_flow_style: false}
+  _yaml_line_col: !!python/object:ruamel.yaml.comments.LineCol
+    col: 0
+    data:
+      alpha: [15, 0, 15, 7]
+      batch_size_test: [12, 0, 12, 17]
+      batch_size_train: [8, 0, 8, 18]
+      bert_config: [6, 0, 6, 13]
+      bos: [19, 0, 19, 5]
+      clip_name: [11, 0, 11, 11]
+      distill: [10, 0, 10, 9]
+      eos: [18, 0, 18, 5]
+      image_res: [7, 0, 7, 11]
+      k_test: [13, 0, 13, 8]
+      num_frm_test: [25, 0, 25, 14]
+      optimizer: [22, 0, 22, 11]
+      prompt: [20, 0, 20, 8]
+      read_local_data: [4, 0, 4, 17]
+      schedular: [23, 0, 23, 11]
+      test_file: [1, 0, 1, 11]
+      train_file: [0, 0, 0, 12]
+      use_checkpoint: [24, 0, 24, 16]
+      vision_width: [9, 0, 9, 14]
+      vln_root: [5, 0, 5, 10]
+      warm_up: [16, 0, 16, 9]
+    line: 0
