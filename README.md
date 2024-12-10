@@ -1,5 +1,7 @@
 # World-Consistent Data Generation for Vision-and-Language Navigation
-
+<div align="center">
+  <img width="800" src="media/pipeline.pdf">
+</div>
 
 ## Requirements
 1. Create and activate a [conda](https://conda.io/) environment named `wcgen`:
