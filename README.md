@@ -3,6 +3,8 @@
   <img width="800" src="media/pipeline.jpg">
 </div>
 
+- [Paper](https://arxiv.org/abs/2412.06413)
+
 ## Requirements
 1. Create and activate a [conda](https://conda.io/) environment named `wcgen`:
 
