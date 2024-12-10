@@ -1,6 +1,6 @@
 # World-Consistent Data Generation for Vision-and-Language Navigation
 <div align="center">
-  <img width="800" src="media/pipeline.pdf">
+  <img width="800" src="media/pipeline.jpg">
 </div>
 
 ## Requirements
